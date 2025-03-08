@@ -177,13 +177,13 @@ section {
 
 @media (max-width: 768px) {
   .scroll-container {
-    padding: 5px;
-    gap: 10px;
+    gap: 0px;
   }
 
   .scroll-item {
     padding: 10px 20px;
     margin-right: 5px;
+    box-shadow: 0 0px 3px var(--cl3);
   }
   .card {
     width: 100%;
